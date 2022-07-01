@@ -89,9 +89,7 @@ body {
   padding: 0%;
   margin-top: 5rem;
   position: relative;
-  /* border: 1px solid black; */
   overflow: hidden;
-  /* background-image: url(../assets/background.svg); */
 }
 .cfa__backgound {
   
@@ -117,3 +115,25 @@ padding: 0 2rem;
   position: relative;
   margin-bottom: 2rem;
 }
+.cfa-icons{
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 56px;
+}
+.cfa__icon-box {
+  height: 50px;
+  width:154px;
+  position: relative;
+ overflow: hidden;
+}
+.shorter {
+  position: absolute;
+  left:30%;
+  top: 20%;
+  transform: scale(1.5);
+}
+.desktop{
+  display: none;
+}
+/* auction */
