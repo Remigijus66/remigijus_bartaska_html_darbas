@@ -10,6 +10,9 @@ body {
   padding: 0%;
   padding-left: 2rem;
 }
+.container.wide {
+  padding left: 0%;
+}
 /* Header */
 .header {
   display: flex;
@@ -77,4 +80,40 @@ body {
   padding: 22px 56px;
   border-radius: 38px;
   border: 4px solid #ff3998;
+}
+
+/* cfa */
+.cfa-texts {
+  margin: 0;
+  width: 428px;
+  padding: 0%;
+  margin-top: 5rem;
+  position: relative;
+  /* border: 1px solid black; */
+  overflow: hidden;
+  /* background-image: url(../assets/background.svg); */
+}
+.cfa__backgound {
+  
+  position: absolute;
+  top: 50%;
+  transform: scaleY(4.5);
+}
+.cfa__header {
+  margin-top: 122px;
+  font-weight: 500;
+font-size: 40px;
+line-height: 48px;
+  padding: 0 2rem;
+  z-index: 1;
+  position: relative;
+}
+.cfa__text {
+  font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+padding: 0 2rem;
+  z-index: 1;
+  position: relative;
+  margin-bottom: 2rem;
 }
