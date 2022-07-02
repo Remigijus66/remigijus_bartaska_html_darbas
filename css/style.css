@@ -10,6 +10,7 @@ body {
   padding: 0%;
   padding-left: 2rem;
   background-color: #FFFFFF;
+  margin: auto;
 }
 .container.wide {
   padding left: 0%;
@@ -38,7 +39,7 @@ body {
 .hero.first {
 }
 .hero__img-box {
-  margin-top: 42px;
+  padding-top: 42px;
   position: relative;
   overflow: hidden;
 }
@@ -49,8 +50,16 @@ body {
   transform: translate(-50%, -50%);
   height: 420px;
 }
+.hero__img.second {
+  position: absolute;
+  top: 67%;
+  left: 79%;
+  transform: translate(-50%, -50%);
+  height: 467px;
+}
+
 .hero__texts {
-  margin-top: 38px;
+  padding: 38px 0;
   width: 274px;
 }
 .hero__subheader {
@@ -68,12 +77,25 @@ body {
   line-height: 58px;
   color: #111111;
 }
+.hero__header.second {
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 68px;
+  width: 274px;
+  
+  margin-bottom: 17px;
+}
 .hero__text {
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
   color: #555555;
 }
+.hero__text.second {
+padding-top: 5px;
+  width: 207px;
+}
+
 .hero__button {
   color: #111111;
   font-weight: 600;
@@ -91,6 +113,7 @@ body {
   margin-top: 5rem;
   position: relative;
   overflow: hidden;
+  margin: auto;
 }
 .cfa__backgound {
   
@@ -117,7 +140,7 @@ padding: 0 2rem;
   margin-bottom: 2rem;
 }
 .cfa-icons{
-  margin-top: 1rem;
+  padding-top: 1rem;
   display: flex;
   flex-wrap: wrap;
   gap: 56px;
@@ -139,7 +162,7 @@ padding: 0 2rem;
 }
 /* auction */
 .auction__header {
-  margin-top: 2rem;
+  padding-top: 2rem;
   font-weight: 500;
 font-size: 40px;
 line-height: 48px;
@@ -153,6 +176,7 @@ line-height: 30px;
   display: flex;
   flex-direction: row;
   overflow: hidden;
+  padding-bottom: 92px;
 }
 .a-card {
   background-color: #EEEEEE;
@@ -230,5 +254,59 @@ font-size: 18px;
   font-size: 18px;
   
 }
+.endofsection {
+  width: 100%;
+  border-bottom: 2px solid #EEEEEE;
+ }
+
+/* contacts */
+.companyname {
+  padding-top: 4rem;
+
+}
+.companyname__subtitle {
+  font-weight: 400;
+font-size: 20px;
+color: #555555;
+padding-top: 30px;
+}
+.companyname__media{
+  padding-top: 2rem;
+}
+.companyname__icon{
+  color: #999999;
+  font-size: 18px;
+  margin: 0 16px 0 0;
+}
+
+.contacts-navtables{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 1.5rem;
+}
+.contacts__navtable {
+  flex-basis: 45%;
+  flex-grow: 1;
+  padding-top: 40px;
+
+}
+th{
+  font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.1em;
+color: #555555;
+text-transform: uppercase  ;
+text-align: left;
+
+}
+td{
+  font-weight: 400;
+  font-size: 20px;
+  color: #555555;
+  text-align: left;
+  padding-top: 16px;
+}
+
 
 

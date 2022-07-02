@@ -7,14 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML-darbas</title>
     <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
         integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Public+Sans:wght@100;400&display=swap"
         rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
     <link rel="stylesheet" href="./css/style.css" />
 </head>
 
@@ -90,7 +91,7 @@
         </section>
         <!-- end call for action section -->
         <!-- auction section -->
-        <section class="auction">
+        <section aria-label="auction" class="auction">
             <div class="container">
                 <h2 class="auction__header">LE Super Rare Auction</h2>
                 <p class="auction__text">
@@ -186,16 +187,19 @@
         <!-- second lauching soon section -->
         <section aria-label="NTF" class="hero second">
             <div class="container">
-                <div class="hero__texts">
-                    <h3 class="hero__subheader">launching soon</h3>
-                    <h1 class="hero__header">An NTF like no other</h1>
-                    <p class="hero__text">
-                        Don’t miss out on the release of our new NFT. Sign up below to
-                        receive updates when we go live.
-                    </p>
-                    <button class="hero__button">Sign Up</button>
+                <div class="hero__img-box">
+                    <div class="hero__texts second">
+                        <h3 class="hero__subheader second">launching soon</h3>
+                        <h1 class="hero__header second">An NTF like no other</h1>
+                        <div class="endofsection"></div>
+                        <p class="hero__text second">
+                            Don’t miss out on the release of our new NFT. Sign up below to
+                            receive updates.
+                        </p>
+                        <button class="hero__button">Sign Up</button>
+                    </div>
+                    <img src="./assets/upsell-footer-image.svg" alt="An NTF like no other" class="hero__img second" />
                 </div>
-                <!-- <img src="#" alt="An NTF like no other" class="hero__img"> -->
             </div>
             <div class="endofsection"></div>
         </section>
@@ -208,10 +212,10 @@
                 <img class="logo" src="./assets/logo.svg" alt="logo" />
                 <div class="companyname__subtitle">Exclusive NFT Collection</div>
                 <div class="companyname__media">
-                    <i class="fa fa-facebook-official companyname__icon" aria-hidden="true"></i>
-                    <i class="fa fa-twitter companyname__icon" aria-hidden="true"></i>
-                    <i class="fa fa-instagram companyname__icon" aria-hidden="true"></i>
-                    <i class="fa fa-pinterest-p companyname__icon" aria-hidden="true"></i>
+                    <i class="fa-brands fa-facebook companyname__icon"></i>
+                    <i class="fa-brands fa-twitter companyname__icon"></i>
+                    <i class="fa-brands fa-instagram companyname__icon"></i>
+                    <i class="fa-brands fa-tiktok companyname__icon"></i>
                 </div>
             </div>
             <div class="contacts-navtables">
