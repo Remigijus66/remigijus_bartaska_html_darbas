@@ -57,6 +57,18 @@ body {
   transform: translate(-50%, -50%);
   height: 467px;
 }
+.hero.second {
+  position: relative;
+}
+.crossingline {
+  width: 100%;
+  border-bottom: 2px solid #EEEEEE;
+  position: absolute;
+  top: 55%;
+  left: 0%;
+  z-index: 1;
+  opacity: 50%;
+}
 
 .hero__texts {
   padding: 38px 0;
@@ -264,6 +276,7 @@ font-size: 18px;
   border-bottom: 2px solid #EEEEEE;
  }
 
+
 /* contacts */
 .companyname {
   padding-top: 4rem;
@@ -288,6 +301,7 @@ padding-top: 30px;
   display: flex;
   flex-wrap: wrap;
   padding-top: 1.5rem;
+  width: 330px;
 }
 .contacts__navtable {
   flex-basis: 45%;
