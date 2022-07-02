@@ -308,5 +308,14 @@ td{
   padding-top: 16px;
 }
 
-
+/* footer */
+.allresolutions, .desktoponly {
+  font-weight: 400;
+font-size: 20px;
+color: #999999;
+padding: 64px 0;
+}
+.desktoponly {
+  display: none;
+}
 
