@@ -188,11 +188,15 @@ body {
   font-size: 20px;
   line-height: 30px;
 }
+.underline {
+  text-decoration: underline;
+}
 .auction__cards {
   display: flex;
   flex-direction: row;
   overflow: hidden;
   padding-bottom: 92px;
+  gap: 40px;
 }
 .a-card {
   background-color: #eeeeee;
@@ -413,5 +417,22 @@ td {
     left: 0%;
     right: 0%;
     transform: none;
+  }
+  /* auction */
+  .auction__header {
+    padding-top: 120px;
+    margin-bottom: 24px;
+  }
+  .auction__text {
+    margin-bottom: 56px;
+  }
+  .a-card,
+  .a-card.invisible {
+    display: inline-block;
+    width: 278px;
+  }
+  .auction__cards {
+    padding-right: 40px;
+    padding-bottom: 120px;
   }
 }
