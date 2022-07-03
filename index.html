@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML-darbas</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Public+Sans:wght@100;400&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <!-- header -->
+    <div class="container">
+        <div class="header">
+            <img class="logo" src="./assets/logo.svg" alt="logo" />
+            <a href="#">
+                <i class="fa fa-bars header-burger__icon" aria-hidden="true"></i></a>
+            <nav class="header-nav">
+                <a href="#" class="header-nav__item">Features</a>
+                <a href="#" class="header-nav__item">About</a>
+                <a href="#" class="header-nav__item">Launch</a>
+                <a href="#" class="header-nav__item">Sign Up</a>
+            </nav>
+        </div>
+    </div>
+    <!-- end header -->
+    <main>
+        <!-- first lauching soon section -->
+        <section aria-label="NTF" class="hero first">
+            <div class="container">
+                <div class="hero__img-box">
+                    <div class="hero__texts">
+                        <h3 class="hero__subheader">launching soon</h3>
+                        <h1 class="hero__header">An NTF like no other</h1>
+                        <p class="hero__text">
+                            Don’t miss out on the release of our new NFT. Sign up below to
+                            receive updates when we go live.
+                        </p>
+                        <button class="hero__button">Sign Up</button>
+                        <div class="space46"></div>
+                    </div>
+                    <img src="./assets/graphic.png" alt="An NTF like no other" class="hero__img" />
+                </div>
+            </div>
+        </section>
+        <!-- end first lauching soon section -->
+        <!-- call for action section -->
+        <section class="cfa">
+            <div class="cfa-texts">
+                <img class="cfa__backgound" src="./assets/background.svg" alt="background" />
+                <h2 class="cfa__header">Free NFT for early birds</h2>
+                <p class="cfa__text">
+                    Sign up today and you’ll get a free NFT when we launch.
+                </p>
+            </div>
+            <div class="container">
+                <div class="cfa-icons">
+                    <div class="cfa__icon-box">
+                        <img class="cfa__icon shorter" src="./assets/companies/1.svg" alt="boomerang" />
+                    </div>
+                    <div class="cfa__icon-box">
+                        <img class="cfa__icon" src="./assets/companies/2.svg" alt="Blimp" />
+                        <p>2</p>
+                    </div>
+                    <div class="cfa__icon-box">
+                        <img class="cfa__icon" src="./assets/companies/3.svg" alt="qrco" />
+                        <p>3</p>
+                    </div>
+                    <div class="cfa__icon-box desktop">
+                        <img class="cfa__icon desktop" src="./assets/companies/4.svg" alt="OpenDoor" />
+                        <p>4</p>
+                    </div>
+                    <div class="cfa__icon-box">
+                        <img class="cfa__icon" src="./assets/companies/5.svg" alt="Droplet" />
+                        <p>5</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end call for action section -->
+        <!-- auction section -->
+        <section aria-label="auction" class="auction">
+            <div class="container">
+                <h2 class="auction__header">LE Super Rare Auction</h2>
+                <p class="auction__text">
+                    We have released four limited edition NFTs early which can be bid on via <span> <a class="underline"
+                            href="#">OpenSea.</a> </span>
+                </p>
+                <div class="auction__cards">
+                    <!-- Card start -->
+                    <div class="a-card">
+                        <img class="a-card__img" src="./assets/ntfs/ntf-1.svg" alt="Purple Man" />
+                        <div class="a-card__line">
+                            <div class="a-card__series">gloop series</div>
+                            <div class="a-card__bid">top bid</div>
+                        </div>
+                        <div class="a-card__line">
+                            <div class="a-card__title">Purple Man</div>
+                            <div class="a-card__eth-price">
+                                <img src="./assets/eth.svg" alt="eth" class="a-card__eth" />
+                                <div class="a-card__price">2.99 ETH</div>
+                            </div>
+                        </div>
+                        <div class="a-card__line">
+                            <div class="a-card__number">#12983</div>
+                            <div class="a-card__duration">1 day left</div>
+                        </div>
+                    </div>
+                    <!-- Card end -->
+                    <!-- Card start -->
+                    <div class="a-card invisible">
+                        <img class="a-card__img" src="./assets/ntfs/nft-2.svg" alt="Beige" />
+                        <div class="a-card__line">
+                            <div class="a-card__series">gloop series</div>
+                            <div class="a-card__bid">top bid</div>
+                        </div>
+                        <div class="a-card__line">
+                            <div class="a-card__title">Beige</div>
+                            <div class="a-card__eth-price">
+                                <img src="./assets/eth.svg" alt="eth" class="a-card__eth" />
+                                <div class="a-card__price">2.99 ETH</div>
+                            </div>
+                        </div>
+                        <div class="a-card__line">
+                            <div class="a-card__number">#12983</div>
+                            <div class="a-card__duration">1 day left</div>
+                        </div>
+                    </div>
+                    <!-- Card end -->
+                    <!-- Card start -->
+                    <div class="a-card invisible">
+                        <img class="a-card__img" src="./assets/ntfs/ntf-3.svg" alt="Red Man" />
+                        <div class="a-card__line">
+                            <div class="a-card__series">gloop series</div>
+                            <div class="a-card__bid">top bid</div>
+                        </div>
+                        <div class="a-card__line">
+                            <div class="a-card__title">Red Man</div>
+                            <div class="a-card__eth-price">
+                                <img src="./assets/eth.svg" alt="eth" class="a-card__eth" />
+                                <div class="a-card__price">2.99 ETH</div>
+                            </div>
+                        </div>
+                        <div class="a-card__line">
+                            <div class="a-card__number">#12983</div>
+                            <div class="a-card__duration">1 day left</div>
+                        </div>
+                    </div>
+                    <!-- Card end -->
+                    <!-- Card start -->
+                    <div class="a-card invisible">
+                        <img class="a-card__img" src="./assets/ntfs/ntf-4.svg" alt="Green" />
+                        <div class="a-card__line">
+                            <div class="a-card__series">gloop series</div>
+                            <div class="a-card__bid">top bid</div>
+                        </div>
+                        <div class="a-card__line">
+                            <div class="a-card__title">Green</div>
+                            <div class="a-card__eth-price">
+                                <img src="./assets/eth.svg" alt="eth" class="a-card__eth" />
+                                <div class="a-card__price">2.99 ETH</div>
+                            </div>
+                        </div>
+                        <div class="a-card__line">
+                            <div class="a-card__number">#12983</div>
+                            <div class="a-card__duration">1 day left</div>
+                        </div>
+                    </div>
+                    <!-- Card end -->
+                </div>
+            </div>
+            <div class="endofsection"></div>
+        </section>
+        <!-- end auction section -->
+        <!-- second lauching soon section -->
+        <section aria-label="NTF" class="hero second">
+            <div class="crossingline"></div>
+            <div class="container">
+                <div class="hero__img-box">
+                    <div class="hero__texts second">
+                        <h3 class="hero__subheader second">launching soon</h3>
+                        <h1 class="hero__header second">An NTF like no other</h1>
+                        <p class="hero__text second">
+                            Don’t miss out on the release of our new NFT. Sign up below to
+                            receive updates.
+                        </p>
+                        <button class="hero__button">Sign Up</button>
+                    </div>
+                    <img src="./assets/upsell-footer-image.svg" alt="An NTF like no other" class="hero__img second" />
+                </div>
+            </div>
+            <div class="endofsection"></div>
+        </section>
+        <!-- end second lauching soon section -->
+    </main>
+    <!-- contacts section -->
+    <div class="container">
+        <section class="contacts">
+            <div class="companyname">
+                <img class="logo" src="./assets/logo.svg" alt="logo" />
+                <div class="companyname__subtitle">Exclusive NFT Collection</div>
+                <div class="companyname__media">
+                    <i class="fa-brands fa-facebook companyname__icon"></i>
+                    <i class="fa-brands fa-twitter companyname__icon"></i>
+                    <i class="fa-brands fa-instagram companyname__icon"></i>
+                    <i class="fa-brands fa-tiktok companyname__icon"></i>
+                </div>
+            </div>
+            <div class="contacts-navtables">
+                <table class="contacts__navtable">
+                    <tr>
+                        <th>About</th>
+                    </tr>
+                    <tr>
+                        <td><a href="">About</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="">Terms</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href=""> Legal</a></td>
+                    </tr>
+                </table>
+                <table class="contacts__navtable">
+                    <tr>
+                        <th>NTF</th>
+                    </tr>
+                    <tr>
+                        <td><a href="">OpenSea</a> </td>
+                    </tr>
+                    <tr>
+                        <td><a href=""> Maker</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href=""> Learn</a></td>
+                    </tr>
+                </table>
+                <table class="contacts__navtable">
+                    <tr>
+                        <th>Contact</th>
+                    </tr>
+                    <tr>
+                        <td> <a href=""> Press</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href=""> Support</a></td>
+                    </tr>
+
+                </table>
+                <table class="contacts__navtable">
+                    <tr>
+                        <th>Social</th>
+                    </tr>
+                    <tr>
+                        <td><a href=""> Twitter</a></td>
+                    </tr>
+                    <tr>
+                        <td> <a href="">Instagram</a> </td>
+
+                </table>
+            </div>
+        </section>
+    </div>
+    <!-- end contacts section -->
+    <div class="container">
+        <footer>
+            <p class="allresolutions">&copy Copyright 2022 NTFlanding</p>
+            <p class="desktoponly">Lauching August 2022</p>
+        </footer>
+    </div>
+</body>
+
+</html>
