@@ -454,4 +454,24 @@ td {
     padding-right: 40px;
     padding-bottom: 120px;
   }
+  /* contacts */
+  .contacts-navtables {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1.5rem;
+    padding-right: 80px;
+    flex-wrap: nowrap;
+    gap: 100px;
+    width: fit-content;
+  }
+  .contacts {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contacts {
+    padding-top: 56px;
+  }
+  /* footer */
+  footer {
+  }
 }
