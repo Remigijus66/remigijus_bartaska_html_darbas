@@ -473,5 +473,13 @@ td {
   }
   /* footer */
   footer {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 80px;
+  }
+  .allresolutions,
+  .desktoponly {
+    display: inline;
+    padding: 120px 0 51px 0;
   }
 }
