@@ -377,10 +377,41 @@ td {
   .hero__text {
     margin-bottom: 37px;
   }
+  /* cfa */
+  .cfa {
+    background-color: #ffffff;
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+  }
+  .cfa-texts {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    /* padding: 0px 40px; */
+    /* margin-right: 40px; */
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  .cfa__backgound {
+    width: 94%;
+  }
+  .cfa-icons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 0;
+    padding-right: 40px;
+    padding-top: 154px;
+  }
+  .shorter,
+  .desktop {
+    height: 50px;
+    width: 154px;
+    display: flex;
+    position: unset;
+    left: 0%;
+    right: 0%;
+    transform: none;
+  }
 }
-
-/* position: absolute;
-top: 54%;
-left: 70%;
-transform: translate(-50%, -50%);
-height: 750px; */
