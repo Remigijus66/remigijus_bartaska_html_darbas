@@ -338,7 +338,7 @@ td {
   .container {
     max-width: 1440px;
     width: 100%;
-    padding-left: 40px;
+    padding-left: 80px;
   }
   /* header */
   .header {
@@ -367,10 +367,18 @@ td {
     font-size: 96px;
     line-height: 116px;
   }
+  .hero__header.second {
+    width: 600px;
+  }
   .hero__texts {
     padding: 38px 0;
     width: 550px;
   }
+  .hero__texts.second {
+    padding-top: 78px;
+    padding-bottom: 117px;
+  }
+
   .hero__img {
     position: absolute;
     top: 54%;
@@ -380,6 +388,17 @@ td {
   }
   .hero__text {
     margin-bottom: 37px;
+  }
+  .hero__text.second {
+    width: 510px;
+    margin-bottom: 40px;
+  }
+  .hero__img.second {
+    top: 56%;
+    left: 68%;
+  }
+  .crossingline {
+    display: none;
   }
   /* cfa */
   .cfa {
@@ -394,18 +413,18 @@ td {
     width: 100%;
     /* padding: 0px 40px; */
     /* margin-right: 40px; */
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 80px;
+    padding-left: 80px;
   }
   .cfa__backgound {
-    width: 94%;
+    width: 89%;
   }
   .cfa-icons {
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
     gap: 0;
-    padding-right: 40px;
+    padding-right: 80px;
     padding-top: 154px;
   }
   .shorter,
